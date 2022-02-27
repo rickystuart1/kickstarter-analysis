@@ -3,10 +3,9 @@
 ## Overview of Project
 
 ### Purpose
-	
-  Our customer wants to organize a Kickstarter campaign for the play that she is wanting to get funding for. She has asked us to create an analysis for her to be able to compare 
-  other campaigns in the same industry and see how successful they were in securing funding. The purpose of this analysis was to use data from Kickstarters website and organize
-  and visualize how different campaigns fared in relation to their launch dates and their funding goals.
+  Louise, our customer wants to organize a Kickstarter campaign for the play that she is wanting to get funding for. She has asked us to create an analysis for her to be able to 
+  compare other campaigns in the same industry and see how successful they were in securing funding. The purpose of this analysis was to use data from Kickstarters website and \
+  organize and visualize how different campaigns fared in relation to their launch dates and their funding goals.
 
 ## Analysis and Challenges	
 
@@ -40,8 +39,8 @@
   recieved. We did this by creating a line chart of the Percentage of outcomes on the y-axis and the goal amounts on the x-axis. 
   <img src="resources/Outcomes_vs_Goals.png" width="1000">
 	
-  - countifs() link: https://support.microsoft.com/en-us/office/countifs-function-dda3dc6e-f74e-4aee-88bc-aa8c2a866842?ui=en-us&rs=en-us&ad=us
-- iferror() link: https://support.microsoft.com/en-us/office/iferror-function-c526fd07-caeb-47b8-8bb6-63f3e417f611#:~:text=You%20can%20use%20the%20IFERROR,the%20result%20of%20the%20formula. 
+  - =countifs() link: https://support.microsoft.com/en-us/office/countifs-function-dda3dc6e-f74e-4aee-88bc-aa8c2a866842?ui=en-us&rs=en-us&ad=us
+- =iferror() link: https://support.microsoft.com/en-us/office/iferror-function-c526fd07-caeb-47b8-8bb6-63f3e417f611#:~:text=You%20can%20use%20the%20IFERROR,the%20result%20of%20the%20formula. 
 
 ### Challenges and Difficulties Encountered
 	
