@@ -17,7 +17,7 @@
   worksheet and created a pivot table and filtered it by Parent Category and Years. Columns were organized by outcomes and rows organized by Launch date, specifically months. 
   To group the Launch date by months we used a method found on Microsoft linked below. In the sum of Values filter we used the count of outcomes and used the pivot charting tool 
   to create a line graph with markers to visualize the data that was organized. 
-	**Need to Link Theatre_Outcomes_vs_Launch.PNG
+  <img src="kickstarter-analysis/resources/Outcomes_vs_Goals.png" width="100">
 	 
  - Pivot table grouping link: https://support.microsoft.com/en-us/office/group-or-ungroup-data-in-a-pivottable-c9d1ddd0-6580-47d1-82bc-c84a5a340725?ui=en-us&rs=en-us&ad=us
 
