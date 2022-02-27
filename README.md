@@ -17,7 +17,7 @@
   worksheet and created a pivot table and filtered it by Parent Category and Years. Columns were organized by outcomes and rows organized by Launch date, specifically months. 
   To group the Launch date by months we used a method found on Microsoft linked below. In the sum of Values filter we used the count of outcomes and used the pivot charting tool 
   to create a line graph with markers to visualize the data that was organized. 
-  <img src="kickstarter-analysis/resources/Outcomes_vs_Goals.png" width="100">
+  <img src="resources/Theater_Outcomes_vs_Launch.png" width="750" height="400">
 	 
  - Pivot table grouping link: https://support.microsoft.com/en-us/office/group-or-ungroup-data-in-a-pivottable-c9d1ddd0-6580-47d1-82bc-c84a5a340725?ui=en-us&rs=en-us&ad=us
 
@@ -30,7 +30,7 @@
   An example:=COUNTIFS(Kickstarter!$D:$D, ">=1000", Kickstarter!$D:$D, "<=4999", Kickstarter!$F:$F, "successful", Kickstarter!$R:$R,"plays"). In the countifs statement 
   we had to use criteria in the statement to bring the data in to the correct cell. In this example the first criteria was (Kickstarter!$D:$D, ">=1000", Kickstarter!$D:$D). This 
   was used to fisrt search the data in the Kickstarter worksheet's D column (goals) to find the plays whose goal amount was more than $1000 and less than $4999. 
-	The next criteria was (Kickstarter!$F:$F, "successful"), this was used so that the the countifs() would now look for the data that fell into the previous criteria and look for 
+  The next criteria was (Kickstarter!$F:$F, "successful"), this was used so that the the countifs() would now look for the data that fell into the previous criteria and look for 
   the data points that were also successful. The final criteria was (Kickstarter!$R:$R,"plays"), this was used so that the the countifs() would now look for the data that fell 
   into the previous two criteria and also the data that were specifically plays and place the data into the cell. After finding all the data for the successful, failed and 
   canceled outcomes, the 4th column was the toatal of each outcome. This was found by adding outcomes in their respective rows (separeted by goal amounts) using the =sum() 
@@ -38,7 +38,7 @@
   outcomes in their goal amount. To avoid any errors, because we had some plays that didn't fall in any of the criteria, we used the formula =IFERROR(). An example of this was 
   =IFERROR(B2/E2,0). This formula was found on Microsoft's website and is linked below. Now with all of the data cells filled we were able to visualize the data that we 
   recieved. We did this by creating a line chart of the Percentage of outcomes on the y-axis and the goal amounts on the x-axis. 
-	**Need to link Outcomes_vs_Goals.PNG**  
+  <img src="resources/Outcomes_vs_Goals.png" width="1000">
 	
   - countifs() link: https://support.microsoft.com/en-us/office/countifs-function-dda3dc6e-f74e-4aee-88bc-aa8c2a866842?ui=en-us&rs=en-us&ad=us
 - iferror() link: https://support.microsoft.com/en-us/office/iferror-function-c526fd07-caeb-47b8-8bb6-63f3e417f611#:~:text=You%20can%20use%20the%20IFERROR,the%20result%20of%20the%20formula. 
