@@ -72,5 +72,5 @@
 
 - What are some other possible tables and/or graphs that we could create?
 	
-	A graph that could be created to represent the data in this analysis better would be a bar graph of the Success Rate of Plays vs the Goal Amount. It would give a more accurate representation of the amount of Plays that attempted Kickstarters and showed success or failure. The Outcomes Based on Goals chart didn't visualize the success rate very well because the charted lines were just inverses of one another. 
-	Another graph that could have been created to better represent the data would be Play Outcomes Based on Launch Dates instead of general theatres. It focuses in on the specific type of theatre event that the customer is trying to fund and give her a more accurate representation of her specific scenario. 
+	- A graph that could be created to represent the data in this analysis better would be a bar graph of the Success Rate of Plays vs the Goal Amount. It would give a more accurate representation of the amount of Plays that attempted Kickstarters and showed success or failure. The Outcomes Based on Goals chart didn't visualize the success rate very well because the charted lines were just inverses of one another. 
+	- Another graph that could have been created to better represent the data would be Play Outcomes Based on Launch Dates instead of general theatres. It focuses in on the specific type of theatre event that the customer is trying to fund and give her a more accurate representation of her specific scenario. 
